@@ -41,3 +41,17 @@ Bu basit oyun, bilgisayarın rastgele tuttuğu 1 ile 100 arasındaki sayıyı ta
 - `srand()` ve `rand()` kullanımı
 - Koşullar (`if`, `else if`)
 - Döngü (`do-while`)
+## Basit ATM Uygulaması (C Dili)
+
+Bu program, menü sistemi kullanarak ATM benzeri işlemler yapmanıza olanak sağlar. Kullanıcı bakiye görüntüleyebilir, para yatırabilir, para çekebilir ve çıkış yapabilir.
+
+### Özellikler:
+- Başlangıç bakiyesi: 1000 TL
+- Menü tabanlı sistem
+- `switch-case` ile işlem seçimi
+- Hatalı giriş ve yetersiz bakiye kontrolü
+
+### Kullanılan Yapılar:
+- `float` değişkenler ile para işlemleri
+- `switch-case`, `while` döngüsü
+- `exit()` ile programdan çıkış
