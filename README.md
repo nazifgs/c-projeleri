@@ -24,3 +24,20 @@ Bu basit program, kullanıcıya menü sistemi aracılığıyla öğrenci ekleme,
 - `stdlib.h` ile `exit(0)` komutu
 
 > Bu proje, C diline yeni başlayanlar için fonksiyon ve menü kullanımı konusunda temel bir örnektir.
+---
+
+## Sayı Tahmin Oyunu (C Dili)
+
+Bu basit oyun, bilgisayarın rastgele tuttuğu 1 ile 100 arasındaki sayıyı tahmin etmeye yöneliktir.
+
+### Özellikler:
+- `rand()` fonksiyonu ile rastgele sayı üretme
+- `do-while` döngüsü ile sürekli tahmin alma
+- Kullanıcı doğru tahmin edene kadar ipuçları verme
+- Kaç denemede bildiğini yazma
+
+### Kullanılan Yapılar:
+- `stdlib.h`, `time.h`
+- `srand()` ve `rand()` kullanımı
+- Koşullar (`if`, `else if`)
+- Döngü (`do-while`)
